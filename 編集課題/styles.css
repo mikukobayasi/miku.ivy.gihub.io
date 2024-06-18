@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fb8aa2, #82e8ff); /* デフォルトの背景色 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black; /* デフォルトの文字色 */
+}
+/* ホームページ用のスタイル */
+body.home-page header, body.home-page footer {
+    background-color: #66e1f1;
+    color: white;
+}
+
+body.home-page header nav ul li a {
+    color: white;
+    background-color: #73f9f6;
+}
+body.home-page header nav ul li a:hover {
+    background-color: #3b7bbf;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: none; /* ふちをなくす */
+}
+
+header nav ul li a:hover {
+    background-color: #82e8ff;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+}
+
+.sky {
+    margin-bottom: 2em;
+}
+
+.sky h2 {
+    color: #0e0ef3;
+}
+
+.sky img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sky p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.details {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+}
+
+.details h3 {
+    color: #00796b;
+    margin-top: 0;
+}
+
+.details p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.trivia {
+    background-color: #e0f7fa;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 2em; /* Add margin-top to separate trivia section */
+}
+
+.trivia h2 {
+    color: #00796b;
+}
+
+.trivia ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.trivia li {
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #82e8ff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* Changed from fixed to relative */
+    bottom: 0;
+    width: 100%;
+}
+
+/* 星の情報ページ用の夜空のグラデーション背景 */
+body.stars-page {
+    background: linear-gradient(to bottom, #1d2f51, #931295);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* 星の情報ページ用のスタイル */
+body.stars-page header, body.stars-page footer {
+    background-color: #1d2f51; /* 別の色に設定 */
+}
+body.stars-page header nav ul li a {
+    color: #6dcff3;
+}
+
+body.stars-page header nav ul li a:hover {
+    background-color: #5f44c4;
+}
+.star-info, .zodiac {
+    margin-bottom: 2em;
+}
+
+.star-info h2, .zodiac h2 {
+    color: #f4f798;
+}
+
+.star-info p, .zodiac p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.zodiac-sign {
+    margin-bottom: 2em;
+}
+
+.zodiac-sign h3 {
+    color: #d8ad56;
+}
+
+.zodiac-sign img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+/* 空模様ページ用のスタイル */
+body.sky-patterns-page{
+    background: linear-gradient(to bottom, #B3E5FC, #64B5F6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+body.sky-patterns-page footer {
+    background: linear-gradient(to bottom, #b3fcb7, #64B5F6); /* 水色と青のグラデーション */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black; /* 空模様ページの文字色を黒に */
+}
+
+body.sky-patterns-page header nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+body.sky-patterns-page header nav ul li a:hover {
+    background-color: #3421a2;
+}
+
+.sky-pattern {
+    margin-bottom: 2em;
+}
+
+.sky-pattern h2 {
+    color: #3b5998;
+}
+
+.sky-pattern img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sky-pattern p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;
+}
+/* 自然現象ページ用のスタイル */
+body.phenomena-page {
+    background: linear-gradient(to bottom, #FFD700, #f77911); /* 黄から赤のグラデーション */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black; /* 自然現象ページの文字色を黒に */
+}
+
+body.phenomena-page header, body.phenomena-page footer {
+    background-color: #ff8800; /* 自然現象ページ用の別の色に設定 */
+    color: rgb(0, 0, 0);
+}
+
+body.phenomena-page header nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+body.phenomena-page header nav ul li a:hover {
+    background-color: #eeb51a;
+}
+
+.phenomenon {
+    margin-bottom: 2em;
+}
+
+.phenomenon h2 {
+    color: #ffffff;
+}
+
+.phenomenon img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.phenomenon p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.details {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #FFFACD;
+    border-radius: 8px;
+}
+
+.details h3 {
+    color: #FF8C00;
+    margin-top: 0;
+}
+
+.details p {
+    margin: 0;
+    font-size: 1em;
+}
