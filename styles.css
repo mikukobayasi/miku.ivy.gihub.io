@@ -238,7 +238,7 @@ body.phenomena-page header nav ul li a {
 }
 
 body.phenomena-page header nav ul li a:hover {
-    background-color: #eeb51a;
+    background-color: #ffee00;
 }
 
 .phenomenon {
@@ -246,7 +246,7 @@ body.phenomena-page header nav ul li a:hover {
 }
 
 .phenomenon h2 {
-    color: #ffffff;
+    color: #000000;
 }
 
 .phenomenon img {
@@ -259,12 +259,13 @@ body.phenomena-page header nav ul li a:hover {
 .phenomenon p {
     text-align: center;
     font-size: 1.2em;
+    color: #000000;
 }
 
 .details {
     margin-top: 1em;
     padding: 1em;
-    background-color: #FFFACD;
+    background-color: #ef7e05;
     border-radius: 8px;
 }
 
@@ -276,4 +277,71 @@ body.phenomena-page header nav ul li a:hover {
 .details p {
     margin: 0;
     font-size: 1em;
+    color: #000
 }
+/* 天体現象ページ用のスタイル */
+body.celestial-phenomena-page {
+    background: linear-gradient(to bottom, #120766, #21c7c7); /* 紫と青のグラデーション */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black; /* 天体現象ページの文字色を黒に */
+}
+
+body.celestial-phenomena-page header, body.celestial-phenomena-page footer {
+    background-color: #120766; /* 天体現象ページ用の別の色に設定 */
+    color: white;
+}
+
+body.celestial-phenomena-page header nav ul li a {
+    color: white;
+}
+
+body.celestial-phenomena-page header nav ul li a:hover {
+    background-color: #7E57C2;
+}
+
+.celestial-phenomenon {
+    margin-bottom: 2em;
+}
+
+.celestial-phenomenon h2 {
+    color: #ffffff;
+}
+
+.celestial-phenomenon img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.celestial-phenomenon p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.celestial-phenomenon p2 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.details {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #EDE7F6;
+    border-radius: 8px;
+    border: none; /* ふちをなくす */
+}
+
+.details h3 {
+    color: #5E35B1;
+    margin-top: 0;
+}
+
+.details p {
+    margin: 0;
+    font-size: 1em;
+}
+
